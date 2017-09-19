@@ -1,0 +1,27 @@
+body {
+	background: linear-gradient(lightskyblue, powderblue);
+}
+
+h1 {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    font-size: 4em;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+
+.letterpmarker {
+	font-family: 'Permanent Marker', cursive;
+	text-align: center;
+	color: dodgerblue;
+	text-shadow: -1px 0 navy, 0 1px navy, 1px 0 midnightblue, 0 -1px midnightblue;
+	font-size: 1.5em;
+}
+
+h2 {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
