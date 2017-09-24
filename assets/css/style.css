@@ -1,5 +1,6 @@
 body {
-	background: linear-gradient(lightskyblue, white);
+	background: linear-gradient(lightskyblue, lightseagreen);
+    /*background: linear-gradient(yellow, lime);*/
 }
 
 h1 {
@@ -7,29 +8,52 @@ h1 {
     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
     font-size: 4em;
     text-align: center;
-    font-family: 'Lobster', cursive;
+    font-family: 'Pacifico', cursive;
 }
 
 .letterpmarker {
 	font-family: 'Permanent Marker', cursive;
 	text-align: center;
-	color: dodgerblue;
+	color: white;
 	text-shadow: -1px 0 navy, 0 1px navy, 1px 0 midnightblue, 0 -1px midnightblue;
-	font-size: 1.5em;
+	/*font-size: 1.5em;*/
 }
 
 h2 {
     color: white;
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    text-shadow: 1px 1px 2px navy, 0 0 25px blue, 0 0 5px darkblue;
     font-size: 2em;
     text-align: center;
     font-family: 'Lobster', cursive;
 }
 
+h3 {
+    color: White;
+    text-shadow: 1px 1px 2px navy, 0 0 25px white, 0 0 5px darkblue;
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Acme', cursive;
+}
+
+a:link, a:visited {
+    color: white;
+}
+
+a:hover, a:active {
+    color: orange;
+}
+
+.oneAndHalfWhite {
+    color: white;
+    font-size: 1.5em;
+    text-align: justify;
+    text-shadow: 1px 1px 2px black, 0 0 25px wheat, 0 0 5px white;
+}
+
 /* carousel fullscreen */
 .carousel-fullscreen .carousel-inner .item {
-    height: 100vh; 
-    min-height: 600px; 
+    height: 93vh; 
+    min-height: 500px; 
     background-position: center center; 
     background-repeat: no-repeat; 
     background-size: cover;
@@ -39,8 +63,6 @@ h2 {
 .carousel-fullscreen .carousel-caption {
     top: 50%;  
     bottom: auto;
-    -webkit-transform: translate(0, -50%); 
-    -ms-transform: translate(0, -50%); 
     transform: translate(0, -50%);
 }
 
@@ -54,16 +76,17 @@ h2 {
     transition: all 0.2s ease-out;
 }
 
-/*#mycarousel {
+#mycarousel {
     margin: 10px 0;
-}*/
+}
 
 .super-heading {
     font-size: 70px; 
 }
 
 .super-paragraph {
-    font-size: 30px; font-weight: 300;
+    font-size: 30px; 
+    font-weight: 300;
 }
 
 .carousel-fade .carousel-inner .item {
