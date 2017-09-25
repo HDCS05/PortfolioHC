@@ -6,7 +6,7 @@ body {
 h1 {
     color: white;
     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
-    font-size: 4em;
+    font-size: 3.5em;
     text-align: center;
     font-family: 'Pacifico', cursive;
 }
@@ -22,7 +22,7 @@ h1 {
 h2 {
     color: white;
     text-shadow: 1px 1px 2px navy, 0 0 25px blue, 0 0 5px darkblue;
-    font-size: 2em;
+    font-size: 1.7em;
     text-align: center;
     font-family: 'Lobster', cursive;
 }
@@ -35,12 +35,32 @@ h3 {
     font-family: 'Acme', cursive;
 }
 
+h4 {
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    text-shadow: 1px 1px 2px darkorange, 0 0 25px white, 0 0 5px red;
+    font-family: 'Courgette', cursive;   
+}
+
+h5 {
+    color: white;
+    font-size: 1.3em;
+    text-align: center;
+    text-shadow: 1px 1px 2px darkorange, 0 0 25px white, 0 0 5px red;
+    font-family: 'Courgette', cursive;
+}
+
 a:link, a:visited {
     color: white;
 }
 
 a:hover, a:active {
     color: orange;
+}
+
+.onodottwo {
+    font-size: 1.2em;
 }
 
 .oneAndHalfWhite {
@@ -51,9 +71,37 @@ a:hover, a:active {
     font-family: 'Courgette', cursive;
 }
 
+.onedotlist {
+    color: white;
+    font-size: 1.3em;
+    text-align: left;
+    text-shadow: 1px 1px 2px darkorange, 0 0 25px white, 0 0 5px red;
+    font-family: 'Courgette', cursive;
+}
+
+/* Images on thumbwrap */
+#thumbwrap {
+    position:relative;
+}
+.thumb img { 
+    float:left;
+    height: 45vh;
+    width: 70%;
+}
+.thumb span { 
+    position:absolute;
+    visibility:hidden;
+}
+.thumb:hover, .thumb:hover span { 
+    visibility:visible;
+    bottom: 100%; 
+    left: calc( ( (100vw - 70%) / 2 ) );
+    z-index:1;
+}
+
 /* carousel fullscreen */
 .carousel-fullscreen .carousel-inner .item {
-    height: 93vh; 
+    height: 94vh; 
     min-height: 500px; 
     background-position: center center; 
     background-repeat: no-repeat; 
@@ -69,7 +117,10 @@ a:hover, a:active {
 
 .carousel-caption {
     height: 100%;
+    width: 80%;
+    left: 11%;
     overflow-y: auto;
+    overflow-x: auto;
     padding-right: 2em;
 }
 
@@ -84,7 +135,7 @@ a:hover, a:active {
 }
 
 #mycarousel {
-    margin: 10px 0;
+    margin: 5px 0;
 }
 
 .super-heading {
