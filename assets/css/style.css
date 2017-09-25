@@ -1,6 +1,5 @@
 body {
 	background: linear-gradient(lightskyblue, lightseagreen);
-    /*background: linear-gradient(yellow, lime);*/
 }
 
 h1 {
@@ -16,7 +15,6 @@ h1 {
 	text-align: center;
 	color: white;
 	text-shadow: -1px 0 navy, 0 1px navy, 1px 0 midnightblue, 0 -1px midnightblue;
-	/*font-size: 1.5em;*/
 }
 
 h2 {
@@ -59,7 +57,7 @@ a:hover, a:active {
     color: orange;
 }
 
-.onodottwo {
+.onedottwo {
     font-size: 1.2em;
 }
 
@@ -119,6 +117,8 @@ a:hover, a:active {
     height: 100%;
     width: 80%;
     left: 11%;
+    padding-top: 0px;
+    padding-bottom: 0px;
     overflow-y: auto;
     overflow-x: auto;
     padding-right: 2em;
