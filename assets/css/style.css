@@ -23,6 +23,7 @@ h2 {
     font-size: 1.7em;
     text-align: center;
     font-family: 'Lobster', cursive;
+    margin: 0;
 }
 
 h3 {
@@ -31,6 +32,7 @@ h3 {
     font-size: 2em;
     text-align: center;
     font-family: 'Acme', cursive;
+    margin: 0;
 }
 
 h4 {
@@ -81,25 +83,44 @@ a:hover, a:active {
 #thumbwrap {
     position:relative;
 }
+#thumbwrap2 {
+    position:relative;
+}
 .thumb img { 
     float:left;
-    height: 45vh;
-    width: 70%;
+    height: 35vh;
+    width: 35vw;
+}
+.thumb2 img { 
+    float:left;
+    height: 35vh;
+    width: 35vw;
 }
 .thumb span { 
+    position:absolute;
+    visibility:hidden;
+}
+.thumb2 span { 
     position:absolute;
     visibility:hidden;
 }
 .thumb:hover, .thumb:hover span { 
     visibility:visible;
     bottom: 100%; 
-    left: calc( ( (100vw - 70%) / 2 ) );
+    left: 20vw;
+    /*left: calc( ( (100vw - 70%) / 2 ) );*/
+    z-index:1;
+}
+.thumb2:hover, .thumb2:hover span { 
+    visibility:visible;
+    top: 100%; 
+    left: -10vw;
     z-index:1;
 }
 
 /* carousel fullscreen */
 .carousel-fullscreen .carousel-inner .item {
-    height: 94vh; 
+    height: 95vh; 
     min-height: 500px; 
     background-position: center center; 
     background-repeat: no-repeat; 
@@ -120,7 +141,7 @@ a:hover, a:active {
     padding-top: 0px;
     padding-bottom: 0px;
     overflow-y: auto;
-    overflow-x: auto;
+    overflow-x: hidden;
     padding-right: 2em;
 }
 
@@ -169,4 +190,37 @@ a:hover, a:active {
 }
 .carousel-fade .carousel-control {
     z-index: 2;
+    /*width: 3em;*/
+}
+
+/*This Section for customized indicators*/
+
+#mycarousel .carousel-indicators {
+    margin-bottom: -15px;
+}
+
+#mycarousel .carousel-indicators li {
+    background-color: transparent;
+    /*border-radius: 0;*/
+    border: none;
+    display: inline-block;
+    height: auto;
+    margin: 0;
+    width: auto;
+}
+
+#mycarousel .carousel-indicators li button {
+    display: block;
+}
+
+.btn-primary {
+    border: 2px solid dodgerblue;
+    border-radius: 40px;
+    transition: all 0.3s ease 0s;
+}
+
+.btn-primary:hover {
+  color: darkblue;
+  background: lightblue;
+  border: 2px solid darkblue;
 }
