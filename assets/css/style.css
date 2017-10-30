@@ -59,6 +59,13 @@ a:hover, a:active {
     color: orange;
 }
 
+.Dblue:link, .Dblue:visited {
+    color: dodgerblue;
+}
+.Dblue:hover, .Dblue:active {
+    color: orange;
+}
+
 .onedottwo {
     font-size: 1.2em;
 }
@@ -72,11 +79,16 @@ a:hover, a:active {
 }
 
 .onedotlist {
-    color: white;
+    color: darkblue;
     font-size: 1.3em;
     text-align: left;
-    text-shadow: 1px 1px 2px darkorange, 0 0 25px white, 0 0 5px red;
-    font-family: 'Courgette', cursive;
+    /*text-shadow: 1px 1px 2px darkorange, 0 0 25px white, 0 0 5px red;*/
+    /*font-family: 'Courgette', cursive;*/
+}
+
+.onedotlisthead {
+    font-size: 1.3em;
+    text-align: center;
 }
 
 /* Images on thumbwrap */
