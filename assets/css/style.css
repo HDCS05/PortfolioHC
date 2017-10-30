@@ -75,7 +75,7 @@ a:hover, a:active {
     font-size: 1.5em;
     text-align: justify;
     text-shadow: 1px 1px 2px darkorange, 0 0 25px white, 0 0 5px red;
-    font-family: 'Courgette', cursive;
+    /*font-family: 'Courgette', cursive;*/
 }
 
 .onedotlist {
@@ -97,6 +97,7 @@ a:hover, a:active {
 }
 #thumbwrap2 {
     position:relative;
+    display: inline-block;
 }
 .thumb img { 
     float:left;
@@ -129,6 +130,20 @@ a:hover, a:active {
     left: -10vw;
     z-index:1;
 }
+
+/*Profile Image*/
+.imgProf {
+    /*display: block;*/
+    margin: auto;
+    width: 100%;
+    border-radius: 40px;
+}
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
 
 /* carousel fullscreen */
 .carousel-fullscreen .carousel-inner .item {
@@ -209,6 +224,8 @@ a:hover, a:active {
 
 #mycarousel .carousel-indicators {
     margin-bottom: -15px;
+    /*top: 50px;*/
+    /*position: relative;*/
 }
 
 #mycarousel .carousel-indicators li {
