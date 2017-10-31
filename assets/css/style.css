@@ -39,7 +39,7 @@ h4 {
     color: white;
     font-size: 1.5em;
     text-align: center;
-    text-shadow: 1px 1px 2px darkorange, 0 0 25px white, 0 0 5px red;
+    /*text-shadow: 1px 1px 2px darkorange, 0 0 25px white, 0 0 5px red;*/
     font-family: 'Courgette', cursive;   
 }
 
@@ -47,7 +47,7 @@ h5 {
     color: white;
     font-size: 1.3em;
     text-align: center;
-    text-shadow: 1px 1px 2px darkorange, 0 0 25px white, 0 0 5px red;
+    /*text-shadow: 1px 1px 2px darkorange, 0 0 25px white, 0 0 5px red;*/
     font-family: 'Courgette', cursive;
 }
 
@@ -56,14 +56,15 @@ a:link, a:visited {
 }
 
 a:hover, a:active {
-    color: orange;
+    color: turquoise;
 }
 
 .Dblue:link, .Dblue:visited {
-    color: dodgerblue;
+    color: cornflowerblue;
+    /*text-shadow: none;*/
 }
 .Dblue:hover, .Dblue:active {
-    color: orange;
+    color: turquoise;
 }
 
 .onedottwo {
@@ -74,14 +75,15 @@ a:hover, a:active {
     color: white;
     font-size: 1.5em;
     text-align: justify;
-    text-shadow: 1px 1px 2px darkorange, 0 0 25px white, 0 0 5px red;
+    /*text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px black;*/
     /*font-family: 'Courgette', cursive;*/
 }
 
 .onedotlist {
-    color: darkblue;
+    color: navy;
     font-size: 1.3em;
     text-align: left;
+    text-shadow: none;
     /*text-shadow: 1px 1px 2px darkorange, 0 0 25px white, 0 0 5px red;*/
     /*font-family: 'Courgette', cursive;*/
 }
@@ -245,7 +247,7 @@ a:hover, a:active {
 }
 
 .btn-primary {
-    border: 2px solid skyblue;
+    border: 2px solid royalblue;
     border-radius: 40px;
     transition: all 0.3s ease 0s;
     top: 0;
@@ -254,5 +256,5 @@ a:hover, a:active {
 .btn-primary:hover {
   color: darkblue;
   background: lightblue;
-  border: 2px solid darkblue;
+  border: 2px solid royalblue;
 }
