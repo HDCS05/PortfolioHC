@@ -147,7 +147,7 @@ a:hover, a:active {
 
 /* carousel fullscreen */
 .carousel-fullscreen .carousel-inner .item {
-    height: 95vh; 
+    height: 92vh; 
     min-height: 500px; 
     background-position: center center; 
     background-repeat: no-repeat; 
@@ -165,7 +165,7 @@ a:hover, a:active {
     height: 100%;
     width: 80%;
     left: 11%;
-    padding-top: 0px;
+    padding-top: 5px;
     padding-bottom: 0px;
     overflow-y: auto;
     overflow-x: hidden;
@@ -223,9 +223,11 @@ a:hover, a:active {
 /*This Section for customized indicators*/
 
 #mycarousel .carousel-indicators {
-    margin-bottom: -15px;
-    /*top: 50px;*/
-    /*position: relative;*/
+    /*margin-bottom: -15px;*/
+    top: 0;
+    position: relative;
+    height: 10px;
+    /*margin-top: 1em;*/
 }
 
 #mycarousel .carousel-indicators li {
@@ -243,9 +245,10 @@ a:hover, a:active {
 }
 
 .btn-primary {
-    border: 2px solid dodgerblue;
+    border: 2px solid skyblue;
     border-radius: 40px;
     transition: all 0.3s ease 0s;
+    top: 0;
 }
 
 .btn-primary:hover {
