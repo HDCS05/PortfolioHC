@@ -36,19 +36,19 @@ h3 {
 }
 
 h4 {
-    color: white;
-    font-size: 1.5em;
+    color: navy;
+    font-size: 1.3em;
     text-align: center;
     /*text-shadow: 1px 1px 2px darkorange, 0 0 25px white, 0 0 5px red;*/
     font-family: 'Courgette', cursive;   
 }
 
 h5 {
-    color: white;
-    font-size: 1.3em;
+    color: navy;
+    font-size: 1.1em;
     text-align: center;
     /*text-shadow: 1px 1px 2px darkorange, 0 0 25px white, 0 0 5px red;*/
-    font-family: 'Courgette', cursive;
+    /*font-family: 'Courgette', cursive;*/
 }
 
 a:link, a:visited {
@@ -81,7 +81,7 @@ a:hover, a:active {
 
 .onedotlist {
     color: navy;
-    font-size: 1.3em;
+    font-size: 1.2em;
     text-align: left;
     text-shadow: none;
     /*text-shadow: 1px 1px 2px darkorange, 0 0 25px white, 0 0 5px red;*/
@@ -89,7 +89,7 @@ a:hover, a:active {
 }
 
 .onedotlisthead {
-    font-size: 1.3em;
+    font-size: 1.2em;
     text-align: center;
 }
 
@@ -103,33 +103,20 @@ a:hover, a:active {
 }
 .thumb img { 
     float:left;
-    height: 35vh;
-    width: 35vw;
+    height: 45vh;
+    width: 45vw;
 }
-.thumb2 img { 
-    float:left;
-    height: 35vh;
-    width: 35vw;
-}
+
 .thumb span { 
     position:absolute;
     visibility:hidden;
+    left: 0;
+    bottom: 100%;
 }
-.thumb2 span { 
-    position:absolute;
-    visibility:hidden;
-}
+
 .thumb:hover, .thumb:hover span { 
     visibility:visible;
-    bottom: 100%; 
-    left: 20vw;
     /*left: calc( ( (100vw - 70%) / 2 ) );*/
-    z-index:1;
-}
-.thumb2:hover, .thumb2:hover span { 
-    visibility:visible;
-    top: 100%; 
-    left: -10vw;
     z-index:1;
 }
 
@@ -140,10 +127,26 @@ a:hover, a:active {
     width: 100%;
     border-radius: 40px;
 }
+
 .vcenter {
     display: inline-block;
     vertical-align: middle;
     float: none;
+}
+
+.imgLogo {
+    /*display: block;*/
+    margin: auto;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.tJustify {
+    text-align: justify;
+}
+
+.tCenter {
+    text-align: center;
 }
 
 .overlay2 {
@@ -156,6 +159,12 @@ a:hover, a:active {
 
 .panel.overlay2 {
     border-radius: 8%;
+}
+
+.panel {
+    margin: 0;
+    padding: 0;
+    bottom: 0;
 }
 
 /* carousel fullscreen */
@@ -181,7 +190,7 @@ a:hover, a:active {
     padding-top: 5px;
     padding-bottom: 0px;
     overflow-y: auto;
-    overflow-x: hidden;
+    overflow-x: auto;
     padding-right: 2em;
 }
 
