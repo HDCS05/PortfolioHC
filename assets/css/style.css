@@ -1,3 +1,4 @@
+
 body {
 	background: linear-gradient(lightskyblue, lightseagreen);
 }
@@ -311,3 +312,20 @@ a:hover, a:active {
   background: lightblue;
   border: 2px solid royalblue;
 }
+
+@media screen and (max-width: 865px) {
+
+    #mycarousel .carousel-indicators {
+        height: 70px; 
+    }  
+
+}
+
+@media screen and (max-width: 360px) {
+
+    #mycarousel .carousel-indicators {
+        height: 110px; 
+    }  
+
+}
+
