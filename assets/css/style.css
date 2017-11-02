@@ -300,17 +300,17 @@ a:hover, a:active {
     display: block;
 }
 
-.btn-primary {
-    border: 2px solid royalblue;
+.btn-success {
+    border: 2px solid green;
     border-radius: 40px;
     transition: all 0.3s ease 0s;
     top: 0;
 }
 
-.btn-primary:hover {
-  color: darkblue;
-  background: lightblue;
-  border: 2px solid royalblue;
+.btn-success:hover {
+  color: lightyellow;
+  background: limegreen;
+  border: 2px solid green;
 }
 
 @media screen and (max-width: 865px) {
@@ -321,7 +321,7 @@ a:hover, a:active {
 
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 401px) {
 
     #mycarousel .carousel-indicators {
         height: 110px; 
