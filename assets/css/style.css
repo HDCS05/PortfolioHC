@@ -98,6 +98,11 @@ a:hover, a:active {
     margin: 0;
 }
 
+.padMar3 {
+    padding: 3px;
+    margin: 3px;
+}
+
 /* Images on thumbwrap */
 #thumbwrap {
     position:relative;
@@ -172,7 +177,7 @@ a:hover, a:active {
 }
 
 .panel.overlay2 {
-    border-radius: 2%;
+    border-radius: 3%;
 }
 
 .panel {
