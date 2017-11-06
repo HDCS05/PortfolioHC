@@ -61,19 +61,15 @@ a:hover, a:active {
 }
 
 .projectHead {
-    height: 1.5em;
+    height: 1.6em;
     font-weight: bold;
-    text-shadow: none;
-    font-size: 1.3em;
-    color: navy;
-    align-content: center;
+    /*text-shadow: none;*/
+    font-size: 1.4em;
+    /*align-content: center;*/
     border-radius: 8px;
-    border-style: solid;
-    border-width: 2px;
-    background: lightblue;
+    background: lightgray;
     padding: 1;
     margin-bottom: 0.2em;
-    /*display: block;*/
 }
 
 .Dblue:link, .Dblue:visited {
