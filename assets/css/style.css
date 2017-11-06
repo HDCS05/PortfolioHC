@@ -331,6 +331,10 @@ a:hover, a:active {
         height: 70px; 
     }  
 
+    #mycarousel .carousel-indicators li {
+        margin: 0.1em;
+    }
+
 }
 
 @media screen and (max-width: 401px) {
@@ -338,6 +342,10 @@ a:hover, a:active {
     #mycarousel .carousel-indicators {
         height: 110px; 
     }  
+
+    #mycarousel .carousel-indicators li {
+        margin: 0.1em;
+    }
 
 }
 
